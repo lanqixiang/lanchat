@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/lanqixiang/AndroidDevelop/lanchat/build/flutter_webview_plugin/intermediates/res/merged/debug/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/lanqixiang/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/7108f22cc7156e2c16dc683fa9778fe0/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/lanqixiang/AndroidDevelop/lanchat/build/flutter_webview_plugin/intermediates/res/merged/debug/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "/Users/lanqixiang/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/7108f22cc7156e2c16dc683fa9778fe0/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]
