@@ -28,6 +28,9 @@ flutter:
     - images/lan_weixin.jpg
     - images/show.jpg
     - images/unshow.jpg
+    - image_test1.png
+    - image_test2.png
+    - image_test3.png
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

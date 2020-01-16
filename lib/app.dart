@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import './chat/message_page.dart';
+import './found/found_page.dart';
 
 class App extends StatefulWidget {
   @override
@@ -12,22 +14,23 @@ class MainState extends State<App> {
   void _select(Choice choice) {
 
   }
-  //MessagePage messagePage;
+  MessagePage messagePage;
   //Contact contact;
-
+  FoundPage foundPage;
   currentPage(){
+
     switch(_currentIndex){
       case 0:
-     //   if(messagePage == null){
-       //   messagePage = new MessagePage();
-     //   }
-        return ;
-      case 1:
-        return ;
+        if(messagePage == null){
+          messagePage = new MessagePage();
+        }
+        return messagePage;
       case 2:
-        return ;
-      case 3:
-        return ;
+        if(foundPage == null){
+          foundPage = new FoundPage();
+        }
+        return foundPage;
+
     }
   }
   @override
@@ -145,7 +148,8 @@ class MainState extends State<App> {
                 return PopupMenuItem<Choice>(
                   child:new Center(
                     child:new Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
+
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: <Widget>[
 
 
@@ -173,7 +177,7 @@ class MainState extends State<App> {
 
 
       ),
-     // body: new bottomNavigationBarView,
+      body: currentPage(),
     );
   }
 }

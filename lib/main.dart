@@ -27,9 +27,9 @@ void main() => runApp(MaterialApp(
 
 final ThemeData themeData =new ThemeData(
   //primaryColor: Color(0xff303030),//导航栏
-  //scaffoldBackgroundColor: Color(0xffebebeb),
+  scaffoldBackgroundColor: Color(0xffebebeb),
     primaryColor: Colors.blue,//导航栏
-    scaffoldBackgroundColor: Colors.red,
+   // scaffoldBackgroundColor: Colors.red,
 
   cardColor: Color(0xff303030)
 );
