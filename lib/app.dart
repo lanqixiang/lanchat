@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './chat/message_page.dart';
 import './found/found_page.dart';
+import './contacts/contact_page.dart';
 
 class App extends StatefulWidget {
   @override
@@ -15,7 +16,7 @@ class MainState extends State<App> {
 
   }
   MessagePage messagePage;
-  //Contact contact;
+  ContactPage contact;
   FoundPage foundPage;
   currentPage(){
 
@@ -25,6 +26,11 @@ class MainState extends State<App> {
           messagePage = new MessagePage();
         }
         return messagePage;
+      case 1:
+        if(contact == null){
+          contact = new ContactPage();
+        }
+        return contact;
       case 2:
         if(foundPage == null){
           foundPage = new FoundPage();

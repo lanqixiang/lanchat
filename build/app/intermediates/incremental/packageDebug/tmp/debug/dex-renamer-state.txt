@@ -1,4 +1,4 @@
-#Thu Jan 16 15:24:40 CST 2020
+#Fri Jan 17 18:10:02 CST 2020
 base.0=/Users/lanqixiang/AndroidDevelop/lanchat/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

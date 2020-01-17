@@ -13,20 +13,6 @@ String localImage;
     // TODO: implement build
 
     return Container(
-      child: Column(
-        children: <Widget>[
-          Container(
-            height: 20,
-            color: Colors.grey,
-            child: Container(
-              margin: EdgeInsets.only(left: 15),
-              child: Text(
-                contactData.sideKey,
-                style: TextStyle(color: Colors.red),
-              ),
-            ),
-          ),
-          Container(
             height: 40,
             decoration: BoxDecoration(color: Colors.white),
             child: Row(
@@ -42,9 +28,7 @@ String localImage;
                 )
               ],
             ),
-          )
-        ],
-      ),
+
     );
   }
 }
